@@ -1,0 +1,20 @@
+body{
+    background-color: aquamarine;
+}
+.sec1{
+    background-color: slategray;
+    color: white;
+    grid-column: 2/4;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+.lorem{
+    grid-column: 2/-1;
+}
+.logo{
+    gap: 3em;
+    margin-left: 20px;
+}
