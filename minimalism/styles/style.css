@@ -29,11 +29,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--headline-color-on-white);
 }
 header {
-  padding: 1em;
-  text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+
+
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
 }
+
+.top_links{
+    padding-top: 30px;
+}
+
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
@@ -44,12 +50,20 @@ p {
     padding: 1em;
   }
 
+button{
+    font-size: large;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-
-    margin: 10%;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 .one{
     grid-column: 1/2;
@@ -63,9 +77,19 @@ p {
 
 .logo{width: 80px;}
 
+a{
+    text-decoration: none;
+    color: #455e58;
+    
+}
+
 nav {
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
+    font-size: large;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    text-decoration-line: none;
 }
 
 
@@ -111,7 +135,7 @@ footer{
 /* Dropdown Button */
 .dropbtn {
     background-color:#DCDFDF;
-    color: white;
+    color:#455e58;
     padding: 16px;
     font-size: 40px;
     border: none;
