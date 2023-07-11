@@ -151,6 +151,7 @@ footer{
   .dropdown-content {
     display: none;
     position: absolute;
+    right: 0;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -172,4 +173,4 @@ footer{
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color:#455e58;}
+  .dropdown:hover .dropbtn {background-color: gray;}
