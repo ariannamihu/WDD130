@@ -36,7 +36,8 @@ button{
     display: grid;
     grid-template-columns: 1fr;
     text-align: left;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .river_info{
